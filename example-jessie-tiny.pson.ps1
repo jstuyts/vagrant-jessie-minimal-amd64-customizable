@@ -32,9 +32,9 @@
                     # Optional. Default: $false
                     IsBootable = $true;
                     # Optional. Default: <none>
-                    PartitionName = 'host';
+                    PartitionName = 'jessie';
                     # Optional. Default: <none>
-                    Label = 'host';
+                    Label = 'jessie';
                 },
                 @{
                     SizeInMebibytes = 512;
