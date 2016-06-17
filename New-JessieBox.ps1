@@ -192,7 +192,7 @@ function coalesce
   {
   param
     (
-    [parameter( Mandatory = $false )][string[]]$Values
+    [parameter( Mandatory = $false )][object[]]$Values
     )
 
   $result = $null
